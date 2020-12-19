@@ -18,20 +18,6 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 ---
 server:
-  port: 2002
-  context-path: /
-eureka:
-  instance:
-    hostname: eureka2002.xiaoyang.com
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      defaultZone: http://eureka2001.xiaoyang.com:2001/eureka/,http://eureka2003.xiaoyang.com:2003/eureka/
-spring:
-  profiles: dev
----
-server:
   port: 2005
   context-path: /
 spring:
