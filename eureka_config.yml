@@ -1,7 +1,7 @@
 spring:
   profiles:
     active:
-    - dev，eureka2002
+    - dev
 ---
 server:
   port: 2004
@@ -29,7 +29,7 @@ eureka:
     service-url:
       defaultZone: http://eureka2001.xiaoyang.com:2001/eureka/,http://eureka2003.xiaoyang.com:2003/eureka/
 spring:
-  profiles: eureka2002
+  profiles: dev
 ---
 server:
   port: 2005
