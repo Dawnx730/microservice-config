@@ -1,7 +1,6 @@
 spring:
   profiles:
-    active:
-    - dev,test
+    active: dev,test
 ---
 server:
   port: 2004
