@@ -1,13 +1,9 @@
-spring:
-  profiles:
-    active:
-     test
 ---
 server:
   port: 2004
   context-path: /
 spring:
-  profiles: dev
+  profiles: eureka2004
 eureka:
   instance:
     hostname: localhost
@@ -21,7 +17,7 @@ server:
   port: 2005
   context-path: /
 spring:
-  profiles: test
+  profiles: eureka2005
 eureka:
   instance:
     hostname: localhost
