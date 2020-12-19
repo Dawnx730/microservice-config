@@ -1,7 +1,7 @@
 spring:
   profiles:
     active:
-     eureka2005
+     eureka2004,eureka2005
 ---
 server:
   port: 2004
