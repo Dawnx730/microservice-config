@@ -21,7 +21,7 @@ server:
   port: 2005
   context-path: /
 spring:
-  profiles: test
+  profiles: dev
 eureka:
   instance:
     hostname: localhost
